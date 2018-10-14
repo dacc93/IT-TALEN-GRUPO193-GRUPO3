@@ -1,0 +1,57 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ .cuerpo{
+    display: flex;
+    flex-direction: column;
+    background-image: url("fondo.jpg"); 
+    /* background-color: brown; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.cuerpo> div{
+    background-color: darkblue;
+    width: fit-content;
+
+}
+.boton{
+    width:400px;
+    height: 50px;  
+    margin: 10px; 
+    font-size: 40px;
+    
+}
+#titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: green;
+    /* width: fit-content; */
+    color: white;
+    font-size: 80px;
+    padding: 0;
+     
+
+    
+}
+#titulo2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    background-color:  rgb(14, 138, 45);
+    margin: -30px;
+}
+
